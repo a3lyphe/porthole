@@ -42,6 +42,15 @@
           <p>
             Learn more about <a href="http://ternarylabs.com/2011/03/27/secure-cross-domain-iframe-communication/">Porthole</a>.
           </p>
+          <h2>Design Goals</h2>
+          <p>
+            Porthole is designed with these goals in mind:
+            <ul>
+              <li>Small, only 8KB</li>
+              <li>Pure Javascript, does not rely on a framework</li>
+              <li>Work cross browser</li>
+              <li>Forward compatible, will use built-in <a href="https://developer.mozilla.org/en/DOM/window.postMessage">postMessage</a> for modern browsers</li>
+            </ul> 
           <h2>
             Usage
           </h2>
@@ -50,7 +59,7 @@
           </p>
           <div class="highlight">
             <pre>
-<code class="html"><span class="nt">&lt;script </span><span class="na">type=</span><span class="s">"text/javascript"</span> <span class="na">src=</span><span class="s">"porthole.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+<code class="html"><span class="nt">&lt;script </span><span class="na">type=</span><span class="s">"text/javascript"</span> <span class="na">src=</span><span class="s">"porthole.min.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
 </code>
 </pre>
           </div>
